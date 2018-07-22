@@ -1,0 +1,2 @@
+model_checkpoint_path: "F:/Python/PycharmProjects/DeepLearning/CNN/CK+_part\\thing.ckpt"
+all_model_checkpoint_paths: "F:/Python/PycharmProjects/DeepLearning/CNN/CK+_part\\thing.ckpt"
