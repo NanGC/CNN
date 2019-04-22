@@ -8,8 +8,8 @@ Train.py
 import os
 import numpy as np
 import tensorflow as tf
-from DeepLearning.PreWork import get_file, get_batch
-from DeepLearning.Model import inference, losses, trainning, evaluation
+from PreWork import get_file, get_batch
+from Model import inference, losses, trainning, evaluation
 
 # 变量声明
 N_CLASSES = 6
