@@ -59,17 +59,6 @@ def test(image_arr):
         print('预测的标签为：', max_index, lists[max_index])
         print('预测的结果为：', prediction)
 
-        # if max_index == 0:
-        #     print('This is a LTAX with possibility %.6f' %prediction[:, 0])
-        # elif max_index == 1:
-        #     print('This is a SUM with possibility %.6f' %prediction[:, 1])
-        # elif max_index == 2:
-        #     print('This is a A5 with possibility %.6f' %prediction[:, 2])
-        # elif max_index == 3:
-        #     print('This is a A6 with possibility %.6f' %prediction[:, 3])
-        # else :
-        #     print('This is a SEG with possibility %.6f' %prediction[:, 4])
-
 
 if __name__ == '__main__':
     img = get_one_image(img_dir)  # 通过改变参数train or val，进而验证训练集或测试集
